@@ -58,3 +58,65 @@ a {
     margin-right: auto;
 }
 
+/* Conteudo */
+
+.content {
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+
+}
+
+.content h1, .content h2 {
+    color: #006599;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    font-size: 48px;
+}
+
+.content h2{
+    font-size: 35px;
+}
+
+section {
+    padding-left: 50px;
+}
+
+/* bem vindo */
+
+#sessao-bemvindo {
+    padding-left: 0;
+}
+
+.sessao-bemvindo-content {
+    padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+    height: 500px;
+    background-image: url('/img/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#sessao-bemvindo h1 {
+    margin-top: 70px;
+}
+
+#sessao-bemvindo::after, #sessao-sobre::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.sessao-minibanner {
+    width: 300px;
+    height: 400px;
+    background-image: url('/img/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
