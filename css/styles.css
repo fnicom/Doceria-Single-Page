@@ -133,3 +133,26 @@ section {
     margin-bottom: 30px;
     margin-left: 25px;
 }
+
+/* Botão Leia Mais */
+
+.sessao-bemvindo-btn, form input[type=submit] {
+    background-color: #006599;
+    color: #fff;
+    text-align: none;
+    padding: 20px 40px;
+    transition: .5s;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.sessao-bemvindo-btn:hover, form input[type=submit]:hover {
+    background-color: #2790c6;
+    
+}
+
+
+
